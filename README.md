@@ -14,12 +14,11 @@ Add this module as a dependency in your other `build.gradle.kts` files:
 
 ```kotlin
 implementation("com.smartcms:smart-common:0.0.1-SNAPSHOT")
-
+```
 ## 🔬 Run Tests
 
 ```bash
 ./gradlew clean test
-```
 ```
 
 ---
