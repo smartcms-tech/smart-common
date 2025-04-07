@@ -53,7 +53,7 @@ publishing {
             pom {
                 name = 'SmartCMS Common Library'
                 description = 'Shared components for SmartCMS microservices'
-                url = 'https://github.com/smartcms-tech/smart-content'
+                url = 'https://github.com/smartcms-tech/smart-common'
                 licenses {
                     license {
                         name = 'MIT License'
@@ -73,7 +73,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/smartcms-tech/smart-content")
+            url = uri("https://maven.pkg.github.com/smartcms-tech/smart-common")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("USERNAME_GITHUB")
                 password = project.findProperty("gpr.key") ?: System.getenv("TOKEN_GITHUB")
