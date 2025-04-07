@@ -24,6 +24,11 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
+      - name: Debug env
+        run: |
+          echo "USERNAME_GITHUB=$USERNAME_GITHUB"
+          echo "TOKEN_GITHUB length=${#TOKEN_GITHUB}"
+
       - name: Publish to GitHub Packages
         run: ./gradlew publish
         env:

@@ -56,7 +56,8 @@ publishing {
                 url = 'https://github.com/smartcms-tech/smart-content'
                 licenses {
                     license {
-                        name = 'Proprietary'
+                        name = 'MIT License'
+                        url = 'https://opensource.org/licenses/MIT'
                     }
                 }
                 developers {
@@ -69,7 +70,6 @@ publishing {
             }
         }
     }
-
     repositories {
         maven {
             name = "GitHubPackages"
@@ -81,7 +81,6 @@ publishing {
         }
     }
 }
-
 
 
 tasks.named('test') {
