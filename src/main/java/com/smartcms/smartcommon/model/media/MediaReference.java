@@ -1,9 +1,8 @@
-package com.smartcms.smartcommon.model;
+package com.smartcms.smartcommon.model.media;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder

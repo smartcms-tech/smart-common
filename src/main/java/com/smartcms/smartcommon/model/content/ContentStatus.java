@@ -1,4 +1,4 @@
-package com.smartcms.smartcommon.model;
+package com.smartcms.smartcommon.model.content;
 
 public enum ContentStatus {
     DRAFT,
