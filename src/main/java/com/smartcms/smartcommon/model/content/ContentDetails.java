@@ -10,6 +10,5 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = NewsletterContent.class, name = "NEWSLETTER"),
         @JsonSubTypes.Type(value = LandingPageContent.class, name = "LANDING_PAGE"),
         @JsonSubTypes.Type(value = PromotionalEmailContent.class, name = "PROMOTIONAL_EMAIL"),
-        @JsonSubTypes.Type(value = CampaignBundleDetails.class, name = "CAMPAIGN_BUNDLE")
 })
 public interface ContentDetails {}
