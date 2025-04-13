@@ -1,4 +1,4 @@
-package com.smartcms.smartcommon.model;
+package com.smartcms.smartcommon.model.account;
 
 import lombok.*;
 
