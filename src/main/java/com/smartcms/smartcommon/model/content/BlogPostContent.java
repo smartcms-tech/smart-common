@@ -15,7 +15,7 @@ import java.util.List;
 @Builder
 public class BlogPostContent implements ContentDetails {
     private String slug;
-    private String content; // Main HTML/markdown content
+    private String htmlContent; // Main HTML/markdown content
     private String excerpt;
     private MediaReference featuredImage;
     private List<Section> sections;
